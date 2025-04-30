@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="login_style.css" />
+</head>
+<body>
+    <!-- header section starts  -->
+
+<header>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" id="login12" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+<div class="login-box">
+  <div class="login-container">
+    <h2>LOGIN</h2>
+    <form id="loginForm">
+      <label for="email">EMAIL</label>
+      <input type="email" id="email" required />
+
+      <div class="password-section">
+        <label for="password">PASSWORD</label>
+        <a href="#" class="forgot">Forgot password?</a>
+      </div>
+      <input type="password" id="password" required />
+
+      <button type="submit" class="signin-btn">SIGN IN</button>
+    </form>
+
+    <p class="create-account">Create account</p>
+
+    <button class="google-btn">
+      <span class="icon">G</span> Login with Google
+    </button>
+
+    <button class="facebook-btn">
+      <span class="icon">f</span> Login with Facebook
+    </button>
+  </div>
+</div>
+
+  <script src="login_script.js"></script>
+</body>
+</html>

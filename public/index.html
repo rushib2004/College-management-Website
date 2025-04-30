@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>College Management System</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>College Management System</h1>
+    <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="login.html" id="login12" class="fas fa-user"></a>
+    </div>
+  </header>
+  <br/>
+  <br/>
+  <form id="studentForm">
+    <input type="text" id="name" placeholder="Student Name" required>
+    <input type="text" id="roll" placeholder="Roll Number" required>
+    <button type="submit">Add Student</button>
+  </form>
+
+  <h2>Student List :-</h2>
+  <br/>
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Student Name</th>
+        <th>Roll Number</th>
+        <th>Task</th>
+        <th id="remain-space">Action</th>
+      </tr>
+    </thead>
+    <tbody id="studentList">
+      <!-- Students will appear here -->
+    </tbody>
+  </table>
+  <br/>
+  <br/>
+
+  <footer id="footer">
+    <div class="credit">Created by <span>@ Rushikesh Bembale </span> | All rights reserved</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
